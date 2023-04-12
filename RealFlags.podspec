@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   s.swift_versions = ['5.0', '5.1', '5.3', '5.4', '5.5', '5.6', '5.7']
-#   s.framework = 'UIKit'
+  s.framework = 'UIKit'
 
   s.source_files = 'RealFlags/Sources/**/*.{h,m,swift}'
   s.vendored_frameworks = 'RealFlags.xcframework'
