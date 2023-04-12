@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.framework = 'UIKit'
 
   s.source_files = 'RealFlags/Sources/**/*.{h,m,swift}'
-  s.ios.vendored_frameworks = 'RealFlags.xcframework'
+  s.vendored_frameworks = 'RealFlags.xcframework'
   s.resource_bundles = {
     'RealFlags' => ['RealFlags/**/*.{png,storyboard,lproj,xcassets,xib}']
   }
